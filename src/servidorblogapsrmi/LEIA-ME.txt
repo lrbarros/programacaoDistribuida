@@ -1,0 +1,30 @@
+﻿Recomendação de execução do servidor com java 8 e Sistema Operacional Windows
+devido aos caminhos de configuração da criação do arquivo police
+e estarem setados no padrao windows
+
+O servidor NAO executa em localhost e sim no ip ATUAL da maquina portanto é necessário um ip
+que não seja o default 169.0.0.0.
+Não utilizar o 127.0.0.1 pois o servidor estará execuntando no ip da placa.
+
+O arquivo server.policy é salvo na pasta raiz do sistema:
+No NetBeans na aba de navegação-Arquivos ele estará na raiz da pasta
+Depois de executado o arquivo se encontra na pasta raiz do projeto
+
+-->**Caso o arquivo server.policy exista e o ip do servidor não seja fixo para acesso deve-se:
+
+Pode-se deletar o arquivo, e ele será recriado com os valores padroes automaticamente
+ao reiniciar o servidor. 
+
+Abri-lo com um editor de texto compatível e alterar os ips do cabeçalho para os 
+endereços atuais do servidor, assim será conservada as regras existentes.
+
+Se essa operação não for possível acesse de um terminal com o endereço permitido e faça o 
+Backup das configurações atuais, Restaure o valores padrões e restaure as Configurações
+salvas no arquivo. Assim o header será atualizado com o ip atual do servidor e terá as
+configurações restauradas.
+
+####IMPORTANTE####
+No Cliente o mesmo ip que esta setado no servidor
+Usuario: admin
+Senha: 123
+######

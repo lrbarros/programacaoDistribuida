@@ -1,0 +1,82 @@
+!SESSION 2015-10-16 22:06:26.506 -----------------------------------------------
+eclipse.buildId=4.6.0.I20150805-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.tools.foundation.core 4 0 2015-10-16 22:09:43.138
+!MESSAGE Unable to load properties from http://download.jboss.org/jbosstools/configuration/ide-config.properties. Falling back on embedded properties
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to retrieve properties from http://download.jboss.org/jbosstools/configuration/ide-config.properties
+	at org.jboss.tools.foundation.core.properties.internal.VersionPropertiesProvider.loadProperties(VersionPropertiesProvider.java:276)
+	at org.jboss.tools.foundation.core.properties.internal.VersionPropertiesProvider.getValue(VersionPropertiesProvider.java:151)
+	at org.jboss.tools.central.internal.DefaultJBossCentralConfigurator.getBuzzUrl(DefaultJBossCentralConfigurator.java:49)
+	at org.jboss.tools.central.jobs.RefreshBuzzJob.getUrlString(RefreshBuzzJob.java:54)
+	at org.jboss.tools.central.jobs.AbstractRefreshJob.getURL(AbstractRefreshJob.java:298)
+	at org.jboss.tools.central.jobs.AbstractRefreshJob.getUrlModified(AbstractRefreshJob.java:281)
+	at org.jboss.tools.central.jobs.AbstractRefreshJob.run(AbstractRefreshJob.java:207)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.tools.foundation.core 4 0 2015-10-16 22:09:43.152
+!MESSAGE Unable to retrieve properties from http://download.jboss.org/jbosstools/configuration/ide-config.properties
+
+!ENTRY org.eclipse.e4.ui.importer 4 0 2015-10-16 22:11:54.705
+!MESSAGE Could not import project located at /media/luiz/Arquivo/ServidorBlogRMIMultiThread
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /media/luiz/Arquivo/ServidorBlogRMIMultiThread
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:365)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.run(EasymportJob.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.createOrImportProject(EasymportJob.java:401)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:353)
+	... 2 more
+
+!ENTRY org.eclipse.e4.ui.importer 4 0 2015-10-16 22:12:29.720
+!MESSAGE Could not import project located at /media/luiz/Arquivo/ServidorBlogRMIMultiThread
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /media/luiz/Arquivo/ServidorBlogRMIMultiThread
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:365)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.run(EasymportJob.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.createOrImportProject(EasymportJob.java:401)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:353)
+	... 2 more
+
+!ENTRY org.eclipse.e4.ui.importer 4 0 2015-10-16 22:14:16.274
+!MESSAGE Could not import project located at /media/luiz/Arquivo/ServidorBlogRMIMultiThread
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /media/luiz/Arquivo/ServidorBlogRMIMultiThread
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:365)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.run(EasymportJob.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.createOrImportProject(EasymportJob.java:401)
+	at org.eclipse.ui.internal.wizards.datatransfer.EasymportJob.toExistingOrNewProject(EasymportJob.java:353)
+	... 2 more
+
+!ENTRY org.eclipse.ui 4 4 2015-10-16 22:15:03.387
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-10-16 22:15:03.407
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2015-10-16 22:15:03.415
+!MESSAGE Plug-in 'org.jboss.tools.jst.web.kb' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.jboss.tools.web.kb.AddKBSupport
+
+!ENTRY org.eclipse.ui 4 4 2015-10-16 22:15:03.424
+!MESSAGE Plug-in 'org.jboss.tools.ws.jaxrs.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.jboss.tools.ws.jaxrs.configuration.addJaxrsConfigurationAction
